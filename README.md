@@ -12,7 +12,7 @@ People who type keyframes in Vezer on Mac and create CG in Houdini on Windows.
 # Getting Started
 1. Clone this repo.
 1. Copy otls/VezerSyncManager.hda to your HDA directory
-1. Set your Vezer file Path
+1. Put VezerSyncManager and Set your Vezer file Path
 1. Hit Load Buttoon
 1. Vezer obj is created in your /obj
 1. This node has a corresponding parameter to Vezer's Track.
@@ -20,8 +20,12 @@ People who type keyframes in Vezer on Mac and create CG in Houdini on Windows.
 1. If you edit keyframe value and want to reflect vezer file, hit save buttoon.
 
 # Transfer Vezer file via SSH
-This HDA has
-
+The HDA additionally supports the exchange of vezer files via SSH. To use this feature, you must be able to log in remotely from Windows to your Mac with public key authentication.
+Use scp
+procedure
+Check the Use SCP checkbox.
+Enter your Mac username, IP address, and the path to the Vezer file on your Mac in the text box.
+Press Pull to download the file from your Mac, or Push to upload the file to your Mac.
 # Limitation
 - Supported Vezer Track types are "MIDI CC", "OSC Value", and "OSC Flag".
 - The functions for keyframe completion that can be used inside each software are limited.
