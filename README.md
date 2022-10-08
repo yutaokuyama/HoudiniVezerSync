@@ -17,7 +17,11 @@ People who type keyframes in Vezer on Mac and create CG in Houdini on Windows.
 1. Vezer obj is created in your /obj
 1. This node has a corresponding parameter to Vezer's Track.
 1. You can use keyframe value via reference copy and so on...
-1. If you edit keyframe value and want to 
+1. If you edit keyframe value and want to reflect vezer file, hit save buttoon.
+
+# Transfer Vezer file via SSH
+This HDA has
+
 # Limitation
 - Supported Vezer Track types are "MIDI CC", "OSC Value", and "OSC Flag".
 - The functions for keyframe completion that can be used inside each software are limited.
